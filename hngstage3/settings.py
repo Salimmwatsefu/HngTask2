@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-&&_vdk=ih7he33-k$!7@o6_gu0q&gy)a60o=(t))r#io0^ns&6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['person-api-hbt8.onrender.com']
 
 
 # Application definition
