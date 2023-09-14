@@ -4,7 +4,7 @@
 
 ## Base URL
 
-The base URL for all API endpoints is: `http://your-api-url.com/`
+The base URL for all API endpoints is: `https://person-api-hbt8.onrender.com/`
 
 ## Endpoints
 
