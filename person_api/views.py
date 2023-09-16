@@ -5,7 +5,7 @@ from django.http import Http404
 from rest_framework.response import Response
 from rest_framework import status
 
-class ListCreatePersonView(generics.CreateAPIView):
+class ListCreatePersonView(generics.ListCreateAPIView):
     queryset = Person.objects.all()
     serializer_class = PersonSerializer
 
