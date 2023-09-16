@@ -20,6 +20,6 @@ from person_api import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('persons/', views.CreatePersonView.as_view(), name='person-create'),
+    path('persons/', views.ListCreatePersonView.as_view(), name='person-list-create'),
     path('persons/<int:pk>', views.RetrieveUpdateDestroyPersonView.as_view(), name='person-detail')
 ]
